@@ -1,6 +1,5 @@
 # Supplier-Order-System
 
-Overview
 A system where clients can browse and order products via an intermediary portal client. 
 
 The system must allow customers to search, browse and select products.
