@@ -20,8 +20,8 @@ public class LoginControl {
               String query = "SELECT * FROM users_tab WHERE username = ? AND password = ?";
               
               try {
-                  String url = "jdbc:oracle:thin:@//192.168.56.101:1521/orcl";                  
-                  Connection conn = DriverManager.getConnection(url, "system", "oracle");                  
+                  String url = "jdbc:oracle:thin:@//000.000.00.000:1521/****";                  
+                  Connection conn = DriverManager.getConnection(url, "******", "******");                  
                   PreparedStatement st = conn.prepareStatement(query);
                   st.setString(1, userName);
                   st.setString(2, pwd);                  
@@ -50,8 +50,8 @@ public class LoginControl {
               String query = "SELECT * FROM client_tab WHERE username = ? AND password = ?";
               
               try {
-                  String url = "jdbc:oracle:thin:@//192.168.56.101:1521/orcl";                  
-                  Connection conn = DriverManager.getConnection(url, "system", "oracle");                  
+                  String url = "jdbc:oracle:thin:@//000.000.00.000:1521/****";                  
+                  Connection conn = DriverManager.getConnection(url, "******", "******");                  
                   PreparedStatement st = conn.prepareStatement(query);
                   st.setString(1, userName);
                   st.setString(2, pwd);                  
